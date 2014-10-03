@@ -1,0 +1,22 @@
+* ver 1.2.2-beta
+  - ProjectCreator exposed in api allowing users to redefine hooks
+  - Configuration object allowed to take creator_class param to constructor
+  - README updated with information about ProjectCreator available hooks
+
+* ver 1.2.1-beta
+  - ".svn" directory matcher added
+  - ".git" & ".svn" directories ignored as template name in completion mode
+  - ".svn" added to ignored directories inside template directory
+  - minor setup typo fixed
+
+* var 1.2-beta
+  - BOILERPLATE_TEMPLATES setup to ".boilerplate_templates" by default
+
+* ver 1.1.2-beta
+  - readme todo items updated
+  - creating a file in boilerplate.template.ProjectCreator moved to
+    separate method "create_file", so for now there is posibility to
+    apply your own templating engine for files
+
+* ver 1.1-beta
+  - initial version with bash completion available, docs not well enough
